@@ -1,0 +1,384 @@
+0 ## y_{p}= \inf_{y} \left \{ y:P \left( \left| \frac{S-E \left( S \right)}{ \sqrt{var \left( S \right)}} \right| \leq y \right) \geq p \right \}
+1 ## \lambda \geq \left( y_{p} \right)^{2} \left[ 1+ \left( \frac{ \sigma_{0}}{ \mu_{0}} \right) \right] 
+2 ## \lambda \geq \left( \frac{y_{p}}{r} \right)^{2} \left[ 1+ \left( \frac{ \sigma_{0}}{ \mu_{0}} \right) \right]
+3 ## \lambda \geq \left( \frac{y_{p}}{r} \right) \left[ 1+ \left( \frac{ \sigma_{0}}{ \mu_{0}} \right) \right]
+4 ## \lambda \geq \big( \frac{y_{p}}{r} \big)^{2} \left[ 1+ \big( \frac{ \sigma_{0}}{ \mu_{0}} \big)^{2} \right]
+ 5 ## \lambda \geq \left( y_{p} \right)^{2} \left[ 1+ \left( \frac{ \sigma_{0}}{ \mu_{0}} \right)^{2} \right]
+ 6  ## f \left( x \right)= \frac{ \alpha \lambda^{ \alpha}}{ \left( \lambda+x \right)^{ \alpha+1}} \left( x>0 \right)
+ 7 ## y_{1}= \left( \right. \left.-2 \ln U \right)^{ \frac{1}{2}} \cos \left( \pi V \right),y_{2}= \left( \right. \left.-2 \ln U \right)^{ \frac{1}{2}} \sin \left( \pi V \right)
+ 8 ## y_{1}=(-2lnU)^{\frac{1}{2}}\cos(\pi{V}),y_{2}=(-2 \ln U)^{\frac{1}{2}}\sin(\pi{V})
+ 9 ## y_{1}= \left( \begin{matrix}- \ln U \end{matrix} \right)^{ \frac{1}{2}} \cos \left( \pi V \right),y_{2}= \left( \begin{matrix}- \ln U \end{matrix} \right)^{ \frac{1}{2}} \sin \left( \pi V \right)
+ 10 ## y_{1}= \left( \begin{matrix}- \ln U \end{matrix} \right)^{ \frac{1}{2}} \cos \left( \pi V \right),y_{2}= \left( \begin{matrix}- \ln U \end{matrix} \right)^{ \frac{1}{2}} \sin \left( 2 \pi V \right)
+ 11 ## y_{1}= \left( \begin{matrix}- \ln U \end{matrix} \right)^{ \frac{1}{2}} \cos \left( \pi V \right),y_{2}= \left( \begin{matrix}- \ln U \end{matrix} \right)^{ \frac{1}{2}}c \tan \left( 2 \pi V \right)
+ 12 ## \chi^{2}(n)\operatorname{\sim}{\mathsf{Gamma}}(\frac{\mathtt{n} }{2},\frac{1}{2})
+ 13 ## \frac{2}{2+e^{2}}
+ 14 ## \frac{4}{4+e^{2}}
+ 15 ## \frac{4+e^{2}}{8+e^{2}}
+ 16 ## \frac{8+e^{2}}{4+e^{2}}
+ 17 ## \frac{2+e^{2}}{4+e^{2}}
+ 18 ## {\overline{X}}_{60}=180.0 \text{元}
+ 19 ## \overline{X}_{80}=185.0
+ 20 ## \overline{X}_{100}=187.5
+ 21 ## f(x)= \frac{324}{(3+x)^{5}} \ \ \ x>0
+ 22 ## P \left( X=x|q= \theta \right)= \left \{ \begin{matrix} \theta,&&x=1 \\ 1- \theta,&&x=0 \end{matrix} \right.
+ 23 ## \frac{n}{n{+}3}
+ 24 ## \frac{n}{n{+}2}
+ 25 ## \frac{n}{n{+}4}
+ 26 ## \frac{2n}{2n+2}
+ 27 ## \frac{3n}{3n{+}3}
+ 28 ## \frac{ \alpha \lambda^{ \alpha}}{ \left( \lambda+x \right)^{ \alpha+1}} \left( x>0 \right)
+ 29 ## f \left( x \right)= \frac{ \beta^{ \alpha}}{ \Gamma \left( \alpha \right)}x^{ \alpha-1}e^{- \beta x},x>0
+ 30 ## V=- \frac{ \alpha}{ \lambda} \sum_{i=1}^{ \alpha} \ln U_{i}
+ 31 ## V=- \frac{1}{ \lambda} \sum_{i=1}^{ \alpha} \ln \left( 1-U_{i} \right)
+ 32 ## V=- \frac{1}{ \alpha} \sum_{i=1}^{\lambda}1-e^{-U_{i}}
+ 33 ## V=- \frac{1}{ \alpha} \sum_{i=1}^{\lambda }1-e^{-U_{i}}
+ 34 ## V=- \frac{1}{ \lambda} \sum_{i=1}^{ \alpha}1-e^{ \frac{U_{i}}{ \lambda}}
+ 35 ## \frac{1+ \alpha}{2 \left( 1+ \beta \right)^{2}}
+ 36 ## \frac{1+ \alpha}{2 \left( 1+ \beta \right)^{2}} \left( 1+ \beta \right)^{ \frac{ \alpha}{ \beta}}
+ 37 ## \frac{1+ \alpha}{2 \left( 1+ \beta \right)^{2}} \left( \frac{ \beta}{1+ \beta} \right)^{ \alpha}
+ 38 ## \left( \frac{ \beta}{1+ \beta} \right)^{ \alpha} \left( 1+ \alpha \right)
+ 39 ## \big( \frac{2 \alpha}{ \beta} \big)^{2}
+ 40 ## u \left( x \right)= \left \{ \begin{matrix} x,0 \leq x<2 \\ \sqrt{2x},x \geq 2 \end{matrix} \right.
+ 41 ## F \left( x \right)= \left \{ \begin{aligned} & 0& x<0 \\ & 0.3& 0 \leq x<2 \\ & 0.4+0.1 \left( x-2 \right)& 2 \leq x \leq 8 \\ & 1& x>8 \end{aligned} \right.
+ 42 ## u(x)= \left \{ \begin{matrix} x,&0 \leq x \leq 2 \\ 1+ \frac{x}{2},&x \geq 2 \end{matrix} \right.
+ 43 ## F \left( x \right)= \left \{ \begin{matrix} 0,&x<0 \\ 0.5,&0 \leq x<2 \\ 0.6,&x=2 \\ 0.6+0.1 \left( x-2 \right),&2<x \leq 6 \\ 1.0,&x>6 \end{matrix} \right.
+ 44 ## \frac{25}{26}
+ 45 ## \frac{45}{26}
+ 46 ## \frac{63}{59}
+ 47 ## \frac{105}{59}
+ 48 ## \frac{135}{56}
+ 49 ## f(x|b)= \frac{2x}{b^{2}},0<x<b
+ 50 ##  g(b)= \frac{1}{b^{2}} \left( 1<b< \infty \right)
+ 51 ##  \frac{45}{6}, \frac{37}{6}
+ 52 ## \frac{45}{6}, \frac{31}{6}
+ 53 ## \frac{41}{6}, \frac{37}{6}
+ 54 ## \frac{31}{6}, \frac{41}{6}
+ 55 ## \frac{41}{6}, \frac{31}{6}
+56 ## \frac{2}{2n+1}(1+ \sum_{i=1}^{n}x_{i}),2
+57 ## \frac{2}{2n+1} \sum_{i=1}^{n}x_{i},1
+58 ## \frac{1}{2n+1}(1+ \sum_{i=1}^{n}x_{i}),1
+59 ## \frac{2}{2n+1}(1+ \sum_{i=1}^{n}x_{i}),2
+60 ## \frac{2}{2n+1} \sum_{i=1}^{n}x_{i},1
+61 ## \frac{n}{n+ \beta} \overline{X}+ \frac{ \beta}{n+ \beta}
+62 ## \frac{n}{n+ \beta} \overline{X}+ \frac{ \alpha \beta}{n+ \beta}
+63 ## \frac{n}{n+ \beta} \overline{X}+ \frac{ \beta}{n+ \beta} \times \frac{n}{ \beta}
+64 ## \frac{n}{n+ \beta} \overline{X}+ \frac{ \beta}{n+ \beta} \times \frac{ \alpha}{ \beta}
+65 ## \frac{n}{n+ \beta} \overline{X}+ \frac{n \beta}{n+ \beta}
+66 ## \widehat{\mu}(\theta_{i}) = \sum_{j = 1}^{n}X_{ij}\Bigg/ n
+67 ## \widehat{\alpha}= \sum_{i=1}^{r} \left( \overline{X}_{i}- \overline{X} \right)^{2}/ \left( r-1 \right)
+68 ## \hat{\mu}= \sum_{i = 1}^{r} \sum_{j = 1}^{n}X_{ij}\Bigg/ (rn)
+69 ## \widehat{v}= \sum_{i=1}^{r} \sum_{j=1}^{n} \left( X_{ij}- \overline{X_{i}} \right)^{2}/ \left( rn-1 \right)
+70 ## \widehat{ \alpha}= \sum_{i=1}^{r} \left( \overline{X}_{i}- \overline{X} \right)^{2}/ \left( r-1 \right)- \widehat{v}/n
+71 ## f(x \left| \theta \right)= \theta^{2}xe^{- \theta x}
+72 ## \pi( \theta)= \theta e^{- \theta}
+73 ## \frac{ \theta^{2} \left( x+1 \right)^{3}e^{- \theta \left( x+1 \right)}}{2}
+74 ## \theta^{3}x^{3}e^{- \theta x}
+75 ## \frac{ \theta^{3} \left( x+1 \right)^{4}e^{- \theta \left( x+1 \right)}}{6}
+76 ## \frac{ \theta^{2}x^{3}e^{- \theta x}}{2}
+77 ## \frac{ \theta^{4} \left( x+1 \right)^{4}e^{- \theta \left( x+1 \right)}}{24}
+78 ## \Theta = \theta
+79 ## \left\{X_{i},i=1,2,\cdots,n\right\}
+80 ## \pi( \theta)= \theta e^{- \theta}
+81 ## E(X_{n+1} \mid x_{1}, x_{2}\cdots x_{n})
+82 ## \frac{2}{2n+1}(1+\sum_{i=1}^{n}x_{i}),\ 2
+83 ## \frac{1}{2n+1}(1+\sum_{i=1}^{n}x_{i}), \  1
+84 ## \frac{1}{2n+1}(1+\sum_{i=1}^{n}x_{i}), \ 1
+85 ## \frac{2}{2n+1}(1+\sum_{i=1}^{n}x_{i}), \  2
+86 ## \frac{2}{2n+1}(1+\sum_{i=1}^{n}x_{i}), \  2
+87 ## \frac{2}{2n+1} \sum_{i=1}^{n}x_{i},\ 1
+88 ## \frac{2}{2n+1} \sum_{i=1}^{n}x_{i},\ 1
+89 ## \lambda
+90 ## \alpha 
+91 ## \frac{ \alpha \lambda^{ \alpha}}{ \big( \lambda+x \big)^{ \alpha+1}} \big( x>0 \big)
+92 ## f \left( x \right)= \frac{ \alpha \lambda^{ \alpha}}{ \left( \lambda+x \right)^{ \alpha+1}} \left( x>0 \right)
+93 ## \big\{U_{i},i \geq 1 \big\}
+94 ## f \left( y \right)= \frac{ \lambda^{ \alpha}}{ \Gamma \left( \alpha \right)}y^{ \alpha-1}e^{- \lambda{y}}
+95 ## V=- \frac{1}{ \lambda} \sum_{i=1}^{ \infty}InU_{i}
+96 ## V=- \frac{1}{ \lambda} \sum_{i=1}^{ \infty}In \left( 1-U_{i} \right)
+97 ## V=- \frac{1}{ \alpha} \sum_{i=1}^{2}InU_{i}
+98 ## V= \frac{1}{ \alpha} \sum_{i=1}^{\lambda }1-e^{-U_{i}}
+99 ## V= \frac{1}{ \lambda} \sum_{i=1}^{ \infty}1-e^{- \frac{U_{i}}{ \lambda}}
+100 ## P \left( X=x|q= \theta \right)= \left \{ \begin{matrix} \theta,&x=1 \\ 1- \theta,&x=0 \end{matrix} \right.
+101 ## \frac{n}{n + 3}
+102 ## \frac{n}{n+2}
+103 ## \frac{n}{n + 4}
+104 ## \frac{2n}{2n+2}
+105 ## \frac{3n}{3n + 3}
+106 ## f \left( x \right)= \frac{324}{ \left( 3+x \right)^{5}}x>0
+107 ## \gamma
+108 ## F \left( x \right)=1-e^{-cx^{\gamma}}
+109 ## x \sim N \left( \mu, \sigma^{2} \right)
+110 ## \sigma^{2} \Phi^{ \prime} \left( \Phi^{-1} \left( p \right) \right)- \sigma \left( 1-p \right) \Phi^{-1} \left( p \right)
+111 ## \sigma \Phi^{`}(\Phi^{-1}(p)) + \sigma( 1 - p)\Phi^{-1}(p)
+112 ## \sigma \Phi \left( \Phi^{-1} \left( p \right) \right)- \sigma^{2} \left( 1-p \right) \Phi^{-1} \left( p \right)
+113 ## \sigma^{2} \Phi^{ \prime} \left( \Phi^{-1} \left( p \right) \right)+ \sigma \left( 1-p \right) \Phi^{-1} \left( p \right)
+114 ## \sigma \Phi \left( \Phi^{-1} \left( p \right) \right)- \sigma \left( 1-p \right) \Phi^{-1} \left( p \right)
+115 ## e^{ \mu} \left[ \Phi \left( \sigma- \Phi^{-1} \left( p \right) \right) \right]- \left( 1-p \right) e^{ \mu+ \sigma \Phi^{-1} \left( P \right)}
+116 ## e^{ \mu+ \frac{ \sigma^{2}}{2}}[ \Phi( \sigma- \Phi^{-1}(p))]-(1-p)e^{ \mu+ \Phi^{-1}(p)}
+117 ## e^{ \mu+ \frac{ \sigma^{2}}{2}}[ \Phi( \sigma- \Phi^{-1}(p))]-pe^{ \mu+ \sigma \Phi^{-1}(P)}
+118 ## e^{u}[ \Phi( \sigma- \Phi^{-1}(p))]-pe^{u+ \sigma \Phi^{-1}(p)}
+119 ## e^{ \mu+ \frac{ \sigma^{2}}{2}}[ \Phi( \sigma- \Phi^{-1}(p))]-(1-p)e^{ \mu+ \sigma \Phi^{-1}(p)}
+120 ## 5e^{-0.2}
+121 ## 20e^{-0.2}
+122 ## 5e
+123 ## y_{1}= \left(-2 \ln U \right)^{ \frac{1}{2}} \cos \left( \pi V \right),y_{2}= \left(-2 \ln U \right)^{ \frac{1}{2}} \sin \left( \pi V \right)
+124 ## y_{1}= \left(-2 \ln U \right)^{ \frac{1}{2}} \cos \left( 2 \pi V \right),y_{2}= \left(-2 \ln U \right)^{ \frac{1}{2}} \sin \left( 2 \pi V \right)
+125 ## y_{1}= \left(- \ln U \right)^{ \frac{1}{2}} \cos \left( \pi V \right),y_{2}= \left(- \ln U \right)^{ \frac{1}{2}} \sin \left( \pi V \right)
+126 ## y_{1}= \left(- \ln U \right)^{ \frac{1}{2}} \cos \left( 2 \pi V \right),y_{2}= \left(- \ln U \right)^{ \frac{1}{2}} \sin \left( 2 \pi V \right)
+127 ## y_{1}= \left(- \ln U \right)^{ \frac{1}{2}} \tan \left( 2 \pi V \right),y_{2}= \left(- \ln U \right)^{ \frac{1}{2}}c \tan \left( 2 \pi V \right)
+128 ## \frac{ \beta^{ \alpha}}{ \Gamma \left( \alpha \right)} \lambda^{ \alpha-1}e^{- \beta \lambda}
+
+129 ## \frac{1+ \alpha}{2 \left( 1+ \beta \right)^{2}}
+130 ## \frac{1+ \alpha}{2 \left( 1+ \beta \right)^{2}} \left( 1+ \beta \right)^{ \frac{ \alpha}{ \beta}}
+131 ## \frac{1+ \alpha}{2 \left( 1+ \beta \right)^{2}} \left( \frac{ \beta}{1+ \beta} \right)^{ \alpha}
+132 ## \left( \frac{ \beta}{1+ \beta} \right)^{ \alpha} \left( 1+ \alpha \right)
+133 ## \left( \frac{2 \alpha}{ \beta} \right)^{2}
+134 ## \chi^{2}
+135 ## f \left( \theta \right)= \left \{ \begin{matrix} 2 \left( 1- \theta \right),&0< \theta<1 \\ 0,& \text{其他} \end{matrix} \right.
+136 ## X_{i} \sim N \left(m, \sigma_{1}^{2} \right)
+137 ## \chi^{2}(n)\operatorname{\sim}\operatorname{Gamma}(\frac{n}{2}, \frac{1}{2})
+138 ## X_{2} \sim \chi^{2}(n)
+139 ## \frac{X_{1}}{\sqrt{X_{2}/n}}\sim t_{n}
+140 ## p \in \left[ 0,1 \right]
+141 ## \frac{1}{1-p} \left[ \Phi \left( \sigma- \Phi^{-1} \left( p \right) \right) \right]
+142 ## \frac{1}{1-p} \left[ \Phi \left( \sigma- \Phi^{-1} \left( p \right) \right) \right]
+143 ## \frac{e^{ \mu+ \frac{ \sigma^{2}}{2}}}{1-p}[ \Phi( \sigma- \Phi^{-1}(p))]
+144 ## \frac{1}{1-p} \left[ \Phi \left( \Phi^{-1} \left( p \right)- \sigma \right) \right]
+145 ## \frac{e^{u}}{1-p} \left[ \Phi \left( \sigma- \Phi^{-1} \left( p \right) \right) \right]
+146 ## \mu_{s}^{ \left( 1 \right)} \left( t \right)=1/ \left[ 100- \left( x+t \right) \right], \mu_{s}^{ \left( 2 \right)} \left( t \right)=2/ \left[ 100- \left( x+t \right) \right],t<100-x
+147 ## q^{\prime}{}_{x}^{(1)}=0.12,q^{\prime}{}_{x}^{(2)}=0.15
+148 ## q_{x}^{(2)}
+149 ## {q^{ \prime}}^{(1)}_{x}
+150 ## {q^{ \prime}}^{(2)}_{x}
+151 ## p_{x}^{(r)}
+152 ## {q^{\prime}}_{x}^{(2)}=1/8, q^{(1)}_{x}=1/4,q^{(1)}_{x+1}=1/3, \text{则}{q^{\prime}}_{x}^{(1)}=()
+153 ## \begin{split}\mu_{x}^{(1)}(t)=&\frac{1}{60-t},\ 0 \le t < 60\\ \mu_{x}^{(2)}(t)=&\frac{k}{60-t},\ 0 \le t < 60\\ h(2|T=t)=& 0.75 ,\ 0 \le t \le 60\end{split}
+154 ## \mu_{x}^{ \left( j \right)}=0.2j, \ j=1,2,3
+155 ## {\mu_{x+t}^{(1)}}= 0. 05 ,\ {\mu_{x+t}^{(2)}}= 0. 02 ,\ t \ge 0
+156 ## {}_{10}p_{x}^{(r)}=0.4966
+157 ## q_{x}^{(1)}=0.7143
+158 ## q_{x}^{(2)}=0.4286
+159 ## {q^{\prime}}_{x}^{(1)}=\frac{1}{10},\ {q^{\prime}}_{x}^{(2)}=\frac{1}{20},\ {q^{ \prime}}_{x}^{(3)}=\frac{1}{30}
+160 ## {q^{\prime}}_{x}^{(1)}=\frac{1}{10},\ {q^{\prime}}_{x}^{(2)}=\frac{1}{20},\ {q^{ \prime}}_{x}^{(3)}=\frac{1}{30}
+161 ## {q^{\prime}}_{x}^{(1)} =2{q^{\prime}}_{x}^{(2)},\ {q^{\prime}}_{x}^{(1)} +{q^{\prime}}_{x}^{(2)} =q_{x}^{({\tau})}+0.1
+162 ## q_{80}^{ \left( 1 \right)}=0.25,q_{80}^{ \left( 2 \right)}=0.30,q_{80}^{ \left( 3 \right)}=0.20
+163 ## q_{80}^{ \left( 1 \right)}=0.25,q_{80}^{ \left( 2 \right)}=0.30,q_{80}^{ \left( 3 \right)}=0.20
+164 ## {q^{ \prime}}^{(1)}_{x}=0.05,\ {q^{\prime}}^{(2)}_{x}=0.04,\ {q^{\prime}}^{(3)}_{x}=0.08
+165 ## {q^{ \prime}}^{(1)}_{x}=0.05,\ {q^{\prime}}^{(2)}_{x}=0.04,\ {q^{\prime}}^{(3)}_{x}=0.08
+166 # \mu_{x}^{\left(1\right)} \left(t\right)=0.2, \ \mu_{x}^{\left(2\right)}\left(t\right)=0.3,\ \mu_{x}^{\left(3\right)}\left(t\right)=0.5 \ \left(t\geq0\right)
+167 ## \mu_{x+t}^{ \left( j \right)}= \mu_{x}^{ \left( j \right)}
+168 ## \frac{\mu_{x}^{(j)}}{\mu_{x}^{(\tau)}}
+169 ## \mu_{x}^{(j)}e^{-t\mu_{x}^{(\tau)}}
+170 ## \mu_{x+t}^{(k)}= \frac{1}{n+1} \cdot \frac{k}{60-x-t}, t<60-x ; k=1,2, \cdots,n
+171 ## f \left( t,j \right)= \frac{j \left( 60-x-t \right)^{ \frac{n}{2}-1}}{ \left( n+1 \right) \left( 60-x \right)^{ \frac{n}{2}}}
+172 ## g \left( t \right)= \frac{n \left( 60-x-t \right)^{ \frac{n}{2}-1}}{2 \left( 60-x \right)^{ \frac{n}{2}}}
+173 ## h \left( 2 \mid T=4 \right)= \frac{1}{n \left( n+1 \right)}
+174 ## \mu_{x+t}^{(1)}= \frac{k}{50-t},0 \leq{t}<50
+175 ## \mu_{x+t}^{(2)}= \frac{1}{50-t},0 \leq{t}<50
+176 ## h \left( 2|T=t \right)=0.5,0 \leq t<50
+177 ## E \left( G \right)+ \sqrt{Var \left( G \right)}={\underline{}\underline{}\underline{}},\  E \left( F \right)+ \sqrt{Var \left( F \right)}={\underline{}\underline{}\underline{}}
+178 ## \mu_{20+t}^{(1)}= \frac{1}{30-t},0 \leq t<30
+179 ## \boldsymbol{\mu_{20+t}^{(\tau)}}=\frac{70-2t}{t^{2}-70t+1200},0 \leq t \leq 30
+180 ## _{5}{q^{\prime }}_{20}^{(1)}=0.167
+181 ## _{5}{q^{\prime }}_{20}^{(2)} = 0.125
+182 ## _{5}{p}_{20}^{ (\tau)}
+183 ## _{5}{q^{(1)}_{20}}
+184 ## _{5}{q}_{ 20}^{(\tau)}
+185 ## {\mu^{(1)}_{x+t}} = \frac{1}{x+t},\ {\mu^{(2)}_{x+t}} = \frac{2}{x+t},\ t \ge 0.
+186 ## q_{x}^{ \left( \tau \right)}=0,6,p_{x}^{ \prime}{}^{ \left( 1 \right)}=0,8,q_{x}^{ \left( 1 \right)}=0,3
+187 ## q_{x}^{(1)}=q_{x}^{(2)}= \frac{12}{49}
+188 ## {q^{\prime }}^{(1)}_{x}=(\ \ \ )
+189 ## {\mu_{x}^{(1)}=0.1 , x \ge 0 ;\ \mu_{x}^{(2)}=\frac{1}{50-x},\ 0 \le x \le 50}
+190 ## {q^{\prime}}^{(1)}_{ x} = 0.1 , {q^{\prime}}^{(2)}_{ x} = 0.04 , {q^{\prime}}^{(3)}_{x} = 0.0625
+191 ## q_{ x}^{ (1)} = 0. 48 , q_{ x}^{ (2)} = 0. 32 , q_{ x}^ { (3)} = 0. 16
+192 ## \begin{split}\left(1\right)\ {q^{\prime}}^{\left(2\right)}_{x}=& 2{q^{\prime}}^{\left(1\right)}_{x}\\  \left(2\right)\ {q^{\prime}}^{\left(1\right)}_{x}+& {q^{\prime}}^{\left(2\right)}_{x}=& q^{\left(\tau\right)}_{x}+0.18 \end{split}
+193 ## m_{40}^{(\tau)}=0.2 
+194 ## {q^{\prime }}_{40}^{(1)}=0.1
+195 ## {q^{\prime }}_{40}^{(2)}
+196 ## h \left( j|t \right)= \left \{ \begin{matrix} \mu_{x+t}^{\left( 1 \right)}/ \mu_{x+t}^{\tau} = \frac{t}{t+1}, \left( j=1 \right) \\ \mu_{x+t}^{ \left( 2 \right)}/ \mu_{x+t}^{ \tau}= \frac{1}{t+1}, \left( j=2 \right) \end{matrix} \right.
+197 ## h \left(j|t\right)= \frac{t}{t+1},j=2
+198 ## h \left( j|t \right)= \frac{1}{t+1},j=1
+199 ## \frac{S(x+k+1)}{S(x+1)}
+200 ## \frac{S(x+k-1)}{S(x)}
+201 ## p_{x} \cdot p_{x+1} \cdot \cdots \cdot p_{x+k-1}
+202 ## p_{x+1}p_{x+2} \cdots p_{x+k}
+203 ## p_{x-1}p_{x} \cdots p_{x+k-1}
+204 ## \varphi(x)= \frac{2}{75}x^{- \frac{1}{3}}
+205 ## {\varphi\left(x\right)+{S}^{\prime}\left({x}\right)=0}
+206 ## \ln(1+ \frac{1}{2}q_{x})- \ln(1-q_{x})
+207 ## \ln \left( 1- \frac{1}{2}q_{x} \right)+ \ln \left( 1-q_{x} \right)
+208 ## \ln \left( 1- \frac{1}{2}q_{x} \right)- \ln \left( 1+q_{z} \right)
+209 ## \ln \left( 1- \frac{1}{2}q_{x} \right)- \ln \left( 1-q_{x} \right)
+210 ## \ln \left( 1- \frac{1}{2}q_{x} \right)+ \ln \left( 1+q_{x} \right)
+211 ## F_{0} \left( t \right)= \left \{ \begin{matrix} t/100,&0<t \leq 100 \\ 1,&t>100 \end{matrix} \right.
+212 ## \mu_{x}= \frac{1}{ \omega-x},\  0 \leq x \leq \omega, \ \omega 
+213 ## \frac{ \omega-x-t}{ \omega-x}
+214 ## \frac{t}{ \omega-x}
+215 ## \frac{1}{ \omega-x}
+216 ## \frac{ \omega-x+t}{ \omega-x}
+217 ## 1- \frac{x}{ \omega}
+218 ## S(x) = 1 - \frac{x}{105} \ \big(0 \leq  x \leq 105\big)
+219 ## \frac{S \left( 60 \right)-S \left( 80 \right)}{S \left( 60 \right)}
+220 ## \frac{F \left( 80 \right)-F \left( 60 \right)}{1-F \left( 60 \right)}
+221 ## \frac{F \left( 80 \right)+F \left( 60 \right)}{1-F \left( 60 \right)}
+222 ## \frac{S \left( 60 \right)+S \left( 80 \right)}{S \left( 60 \right)}
+223 ## S \left( x \right)= \frac{1}{100^{2}} \cdot \left( \frac{x-100}{x+1} \right)^{2}
+224 ## \frac{l_{x+1}}{l_{x}}=(p_{x})^{ \prime}
+225 ## \int_{0}^{1}s \cdot{_{1}p_{x}} \cdot \mu_{x+1}ds
+226 ## E \left( X-x|x<X \leq x+1 \right)
+227 ## _sq_{x}=_{1-s}p_{x} \cdot {_s{q}_{x+1-s}}; \mu_{x+s}>{_s{q}_{x}}
+228 ## l_{6}=9000,q_{[0]}=1/5,\ {_{5}{p}_{[1]}}=4/5,\ {_{3}p_{[0]+1}}= \frac{82}{90} \times {_3{p}_{[1]}}
+229 ## \frac{l_{[20]+2}-l_{24}}{l_{[20]+1}}, \frac{l_{[22]+2}-l_{26}}{l_{[22]+3}}
+230 ## \frac{l_{24}-l_{26}}{l_{[20]+1}}, \frac{l_{[22]+2}-l_{26}}{l_{[22]+3}}
+231 ## \frac{l_{24}-l_{26}}{l_{[20]+1}}, \frac{l_{24}-l_{26}}{l_{[22]+3}}
+232 ## \frac{l_{[20]+3}-l_{27}}{l_{[20]+1}}, \frac{l_{27}-l_{31}}{l_{[22]+3}}
+233 ## \frac{l_{24}-l_{27}}{l_{[20]+1}}, \frac{l_{27}-l_{31}}{l_{[23]+3}}
+234 ## l_{x}=10000 \left( 1- \frac{x}{100} \right),x=0,1, \cdots,100
+235 ## l_{30}^{ \left( \tau \right)}=1000,{q^{\prime}}_{30}^{ \left( 1 \right)}=0.10,\ {q^{ \prime}}_{30}^{ \left( 2 \right)}=0.20,\ _{11}q_{30}^{ \left( 1 \right)}=0.05,\ l_{32}^{ \left( \tau \right)}=562
+236 ## F \left( t \right)= \left \{ \begin{matrix} \frac{t}{60},&0 \leq t<60 \\ 1,&60 \leq t \\ 0,&t<0 \end{matrix} \right.
+237 ## {}_{n}m_{x}= \frac{ \int_{0}^{n}{_{s}p_{x}} \cdot{u}_{x+s}ds}{ \int_{0}^{n}{_{s}p_{x}}ds}
+238 ## \frac{ \int_{0}^{n}l_{x+s} \mu_{x+s}ds}{ \int_{0}^{n}l_{x+s}ds}
+239 ## \frac{_{n}d_{x}}{ \int_{0}^{n}l_{x+s}ds}
+240 ## \frac{{}_{x+n}d_{x}}{ \int_{0}^{n}l_{x+s}ds}
+241 ## F \left( x \right)= \left \{ \begin{matrix} \left( \frac{x}{100} \right)^{2},&&0 \leq x \leq 100 \\ 1,&&x>100 \end{matrix} \right.
+242 ## Y_{2}= \left \{ \begin{matrix} 0,&X<10 \ln 2 \\ X-10 \ln 2,&X \geq 10 \ln 2 \end{matrix} \right.
+243 ## F \left( x \right)= \left \{ \begin{matrix} 0,&x \leq 0 \\ 0.02 \left( x- \frac{x^{2}}{200} \right),&0<x<100 \\ 1,&x \geq 100 \end{matrix} \right.
+244 ## Y_{2} = \left\{\begin{aligned} & 0,& X \leq& 1\\ & X - 1,& X>& 1\end{aligned}\right.
+245 ## f_{c}(c)=1.1c^{-2}e^{ \frac{-1.1}{c}},c>0
+246 ## X \sim \begin{pmatrix}0&1&3&10 \\ 0.5&0.3&0.15&0.05 \end{pmatrix}
+247 ## F_{x} \left( x \right)=1-0.8e^{-0.02x}-0.2e^{-0.001x},x \geq 0
+248 ## f \left( x \right)= \sum a_{i} \lambda_{i}e^{- \lambda_{i}x} \left( x>0, \lambda_{i}>0,a_{i}>0, \sum a_{i}=1 \right)
+249 ## \sum_{i=1}^{n} \frac{1}{ \lambda_{i}-t} \left( t< \lambda_{i} \right)
+250 ## M_{x} \left( t \right)= \sum_{i=1}^{n} \frac{ \lambda_{i}}{ \lambda_{i}-t} \left( t< \lambda_{i} \right)
+251 ## M_{x} \left( t \right)= \sum_{i=1}^{s} \frac{a_{i}t}{ \lambda_{i}-t} \left( t< \lambda_{i} \right)
+252 ## \sum_{i=1}^{n}a_{i} \frac{ \lambda_{i}}{ \lambda_{i}-t} \left( t< \lambda_{i} \right)
+253 ## M_{x} \left( t \right)= \sum_{i=1}^{n}a_{i} \frac{1}{ \lambda_{i}-t} \left( t< \lambda_{i} \right)
+254 ## f_{x} \left( x \right)= \left \{ \begin{matrix} \lambda e^{- \lambda x},&x>0 \\ 0,& \text{其他} \end{matrix} \right.
+255 ## P \left \{ B \leq x|I=1 \right \}= \left \{ \begin{matrix} 0,x<0 \\ 0,9 \left[ 1- \left( 1- \frac{x}{2000} \right)^{2} \right],0 \leq x<2000 \\ 1,x \geq 2000 \end{matrix} \right.
+256 ## F \left( x \right)= \left \{ \begin{matrix} 0,&x<0 \\ 1-e^{- \lambda_{k}x},&0 \leq x<L_{k} \\ 1,&x \geq L_{k} \end{matrix} \right.
+257 ## f(x)= \lambda_{k}e^{- \lambda_{k}x}
+258 ## P \left( B_{k}=L_{k} \right)=e^{- \lambda_{k}L_{k}}
+259 ## P \left( \sum_{i=1}^{n}X_{i} \geq n \mu+a \sqrt{n} \sigma \right) \cong{c}+b \Phi \left( d \right)
+260 ## f \left( x \right)= \left \{ \begin{matrix} 1.5-x,&0<x<1 \\ 0,&&\text{其他} \end{matrix} \right.
+261 ## X_{1} \sim \left( \begin{matrix} 0&1&2 \\ 0.5&0.3&0.2 \end{matrix} \right),X_{2} \sim \left( \begin{matrix} 0&1&2&3 \\ 0.4&0.3&0.2&0.1 \end{matrix} \right)
+262 ## X_{i}\sim\begin{pmatrix}1&2&3\\ 0.5&0.4&0.1\end{pmatrix}
+263 ## X \sim \left( \begin{matrix} 200&300&500 \\ 0.20&0.30&0.50 \end{matrix} \right)
+264 ## \left(\begin{matrix}0&100\\ 0.8&0.2\end{matrix}\right)
+265 ## \left(\begin{matrix}0&200\\ 0.8&0.2\end{matrix}\right)
+266 ## P \left( N=n \right)=pq^{n},n=0,1,2 \cdots \cdots,p= \frac{2}{3},q= \frac{1}{3}
+267 ## \lambda Var(X_{l})
+268 ## \lambda \int_{- \infty}^{M}x^{2}f \left( x \right) dx
+269 ## \lambda[ \int_{0}^{M}x^{2}f(x)dx+M^{2}P(X>M)]
+270 ## \lambda^{ \prime} \int_{M}^{+ \infty} \left( x-M \right)^{2}f \left( x \right) dx
+271 ## \lambda^{ \prime} \int_{M}^{+ \infty} \left( x-M \right)^{2} \frac{f \left( x \right)}{P \left( X>M \right)}dx
+272 ## \lambda^{ \prime} \left[ \int_{M}^{+ \infty}x^{2}f \left( x \right) dx-M^{2} \left( 1-F \left( M \right) \right) \right]
+273 ## \lambda^{ \prime} \int_{M}^{+ \infty} \left( x^{2}-M^{2} \right) f \left( x \right) dx
+274 ## \lambda^{ \prime} \int_{M}^{+ \infty} \left( x-M \right) \frac{f \left( x \right)}{P \left| X>M \right|}dx
+275 ## X_{l}= \left \{ \begin{matrix} X,x \leq M \\ M,x>M \end{matrix} \right.
+276 ## f_{x} \left( x \right)= \frac{2.5 \times 10^{2.5}}{ \left( 10+x \right)^{3.5}}
+277 ## \theta = \frac{2}{3}\sqrt[3]{10} {-}1
+278 ## F(x)= \left \{ \begin{matrix} 1-0.1e^{-0.1x},&x \geq 0 \\ 0,&x<0 \end{matrix} \right.
+279 ## \textit{Ms(t)}=e^{ \lambda(e^{t}+2^{2t}+e^{3t}+e^{4t})}
+280 ## \left( \begin{matrix} 1&2&3 \\ 0.25&0.375&0.375 \end{matrix} \right)
+281 ## f_{s} \left( x \right)= \frac{1}{x} \left[ 0.2f_{s} \left( x-1 \right)+kf_{s} \left( x-2 \right)+0.6f_{s} \left( x-3 \right) \right],x=1,2,3, \cdots
+282 ## P \left( S=x \right)= \frac{2^{x}}{x!}e^{-2}
+283 ## P \left( S=x \right)= \left( \begin{matrix} x+2 \\ x \end{matrix} \right) \left( \frac{4}{5} \right)^{3} \left( \frac{1}{5} \right)^{x}
+284 ## f \left( x \right)= \frac{ \left[- \ln \left( 1-C \right) \right]^{-1}C^{x}}{x} \left( x=1,2, \cdots,0<C<1 \right)
+285 ## P \left( N=n \right)= \left( \begin{matrix} 1+n \\ n \end{matrix} \right) \left( \frac{1}{3} \right)^{2} \left( \frac{2}{3} \right)^{n} \circ
+286 ## f_{s} \left( x \right)= \frac{1}{x} \left[ 0.16f_{s} \left( x-1 \right)+kf_{s} \left( x-2 \right)+0.72f_{s} \left( x-3 \right) \right],x=1,2,3, \cdots
+287 ## \text{P}_{\text{n}} = \text{P}_{\text{n-1}} \left(-\frac{1}{2} + \frac{2 }{n}\right) ,\ \ \text{n=1},\ \ \text{2},\ \ \cdots ,
+288 ## f_{S} \left( x \right)= \sum_{n=0}^{ \infty}f_{x}^{* \left( n \right)} \left( x \right) \left( \begin{matrix} n+2 \\ n \end{matrix} \right) 0.2^{3} \times 0.8^{n},x=0,1,2, \cdots
+289 ## f_{k} \left( x \right)= \frac{2^{k}e^{-2x}x^{k-1}}{ \left( k-1 \right)!},x>0,k=1,2,3,4
+290 ## \sum_{k=1}^{4}E \left[ \left( X_{k}-E \left( X_{k} \right) \right)^{3} \right]
+291 ## D= \left \{ \begin{aligned} & 0.8G-S,& \quad S<0.8G \\ & 0,&\quad S \geq 0.8G \end{aligned} \right.
+292 ## c = \left(1 +\theta\right)\lambda{E} \left[{X} \right] ,\ \ \ S\left(t\right) = \sum_{i = 1}^{N\left(t\right)}X_{i}
+293 ## p \left( x \right)= \frac{1}{2}e^{-x}+e^{-3x}+ \frac{2}{3}e^{-4x}
+294 ## 1+2R= \frac{1}{2} \left( \frac{1}{1-R} \right)+ \frac{1}{3} \left( \frac{3}{3-R} \right)+ \frac{1}{6} \left( \frac{4}{4-R} \right)
+295 ## \tfrac{u \left\{M_{x}(-\ln u/\alpha)-1\right\}}{-p_{1}\ln\alpha}-1
+296 ## L= \max \left \{ \underset{t \geq 0}{S \left(t \right)}-ct \right \}
+297 ## v_{x+s}=su_{x+1}+ \frac{1}{6}s \left( s^{2}-1 \right) \left( \delta^{2}u_{x+1}- \frac{1}{6} \delta^{4}u_{x+1} \right)\newline +tu_{x}+ \frac{1}{6}t \left( t^{2}-1 \right) \left( \delta^{2}u_{x}- \frac{1}{6} \delta^{4}u_{x} \right)
+298 ## p(x)= \binom{m}{x}q^x(1-q)^{m-x},x=0,1, \cdots,m, 
+299 ## \sqrt[3]{2}
+300 ## s_{\actuarialangle{11}}
+301 ## a_{\actuarialangle{n}}^{(m)}
+302 ## a_{\actuarialangle{n}}
+303 ## a_{\actuarialangle{15.5}}^{(4)}, i=4\%
+304 ## \frac{L}{ia_{\actuarialangle{k}}{+}\frac{1}{s_{\actuarialangle{n}j}}}
+305 ## \frac{L}{a_{\actuarialangle{k}}}
+306 ## \frac{L \left( 1+i \right)^{ \frac{1}{2}}}{2+a_{\actuarialangle{4}i}+a_{\actuarialangle{5}j} \left( 1+j \right)^{-4}}
+307 ## \frac{L}{is_{\actuarialangle{k}}+\frac{1}{a_{\actuarialangle{n}}j}}
+308 ## \frac{L}{i{s}_{\actuarialangle{k}}+\frac{s_{\actuarialangle{k}}}{a_{ \actuarialangle{n}j}}}
+309 ## \frac{r \left( Ia \right)_{ \actuarialangle{n}}+nv^{n}}{a_{ \actuarialangle{n}}+v^{n}}
+310 ## \frac{s_{\actuarialangle{2n}}}{s_{\actuarialangle{n}}}+ \frac{s_{ \actuarialangle{n}}}{s_{\actuarialangle{3n}}}- \frac{s_{ \actuarialangle{3n}}}{s_{\actuarialangle{2n}}}=1, \left( n \geq 1 \right)
+311 ## \frac{ra_{\actuarialangle{n}}+v^{n}}{r \left( Ia \right)_{\actuarialangle{n}}+nv^{n}}
+312 ## \frac{r(Ia)_{\actuarialangle{n}}}{ra_{\actuarialangle{n}} + v^{{}^{n}}}
+313 ## \frac{L_{0}(1+i)}{s_{\actuarialangle{n}j}}
+314 ## \frac{L(1+i)^{ \frac{1}{2}}}{2+a_{\actuarialangle{4}{i}} \cdot(1+i)^{4}}
+315 ## \frac{L \left( 1+i \right)^{ \frac{1}{2}}}{2+a_{\actuarialangle{4}{i}}+a_{\actuarialangle{5}{j}} \cdot \left( 1+i \right)^{-4}}
+316 ## \frac{L_{0}(1+i)}{\ddot{s}_{\actuarialangle{n}j}}
+317 ## \frac{L \left( Ia \right)_{ \actuarialangle{n}i}}{Ra_{ \actuarialangle{n}|i}}
+318 ## \frac{L \left( 1+i \right)^{ \frac{1}{2}}}{2+a_{\actuarialangle{4}i}+ \left( 1+j \right)^{-4}a_{\actuarialangle{5}j}}
+319 ## (\overline{Ia})_{\actuarialangle{15}}
+320 ## \ddot{a}_{\actuarialangle{m}}=x,s_{\actuarialangle{n}}=y, \ddot{s}_{\actuarialangle{k}}=z
+321 ## \ddot{a}_{\actuarialangle{n}}
+322 ## \frac{\left(\textit{Ia}\right)_{\actuarialangle{n}i}}
+323 ## \frac{ \left( Da \right)_{ \actuarialangle{n}i}}{a_{ \actuarialangle{n}i}}
+324 ## \frac{(Ia)_{{\actuarialangle{n}}} +nv^{{}^{n}}}{ra_{\actuarialangle{n}} + v^{n}}
+325 ## \frac{a_{\actuarialangle{n}{i}}}{\left({Ia}\right)_{\actuarialangle{n}i}}
+326 ## s_{\actuarialangle{3}}
+327 ## s_{\actuarialangle{100}}^{ \left(0.5\right)},i=1\%
+238 ## R\frac{\left(\textit{Ia}\right)_{\actuarialangle{n}i}}{a_{\actuarialangle{n}i}}
+329 ## d^{(3)}(1-v^{ \frac{1}{3}})=i^{(3)}(v^{ \frac{1}{3}}-v^{ \frac{2}{3}})
+330 ## a_{\actuarialangle{7}}=a,a_{\actuarialangle{11}}=b,a_{\actuarialangle{18}}=c
+331 ## a_{\actuarialangle{30}}=13.693,Ia_{\actuarialangle{30}}=101.973
+332 ## a_{\actuarialangle{12}}(1 + is_{\actuarialangle{6}}) < va_{\actuarialangle{6}} + s_{\actuarialangle{6}}
+333 ## a_{\actuarialangle{10}{0.08}}=6.71008
+334 ## a_{\actuarialangle{10}{0,09}}=6.41766
+335 ## a_{\actuarialangle{2m+n+k}}
+336 ## a_{\actuarialangle{n}}=x,a_{\actuarialangle{2n}}=y
+337 ## a_{\actuarialangle{n}}=b
+338 ## a_{\actuarialangle{8}i}=k
+339 ## a_{\actuarialangle{7}}=5.153, a_{\actuarialangle{11}}=7.036, a_{\actuarialangle{18}}=9.180
+340 ## a_{\actuarialangle{m+n}:}
+341 ## (\overline{I} \overline{a})_{\actuarialangle{n}}=()
+342 ## (Ia)_{\actuarialangle{n}}=a
+343 ## {v}^{2.5}{a}_{\actuarialangle{15.5}}^{(4)},i=4\%
+344 ## \ddot{a}_{\actuarialangle{10}}
+345 ## \ddot{a}_{\actuarialangle{m}}=a,s_{\actuarialangle{n}}=b
+346 ## \ddot{a}_{\actuarialangle{n}}^{(2)}=k, {i}=12\%
+347 ## \ddot{a}_{\actuarialangle{n}}^{(m)}
+348 ## \ddot{a}_{\actuarialangle{15.75}}^{(4)},i=4\%
+349 ## \ddot{a}^{{(12)}}_{\actuarialangle{n}} = ()
+350 ## \ddot{s}_{\actuarialangle{10}}=2.5
+351 ## \frac{{a}_{\actuarialangle{3}}}{a_{\actuarialangle{2}}}
+352 ## \frac{{s}_{\actuarialangle{3}}}{s_{\actuarialangle{2}}}
+353 ## \frac{\ddot{a}_{\actuarialangle{3}}}{a_{\actuarialangle{2}}}
+354 ## \frac{\ddot{a}_{\actuarialangle{n}}^{(m)}}{\tilde{s}_{\actuarialangle{m}}}
+355 ## \frac{1000s_{\actuarialangle{n}{0.07}}}{s_{\actuarialangle{n}{0.08}} \left( 1+0.09a_{\actuarialangle{n}{0.07}} \right)}
+356 ## \frac{L \left( 1+i \right)^{ \frac{1}{2}}}{2+a_{ \actuarialangle{4}{i}}+a_{\actuarialangle{5}j}}
+357 ## \frac{L}{i{a}_{\actuarialangle{k}}+\frac{{a}_{\actuarialangle{k}}}{s_{\actuarialangle{n}j}}}
+358 ## \frac{r \left( Ia \right)_{ \actuarialangle{n}}+nv^{n}}{ra_{ \actuarialangle{n}}+v^{n}}
+359 ## \left( \overline{a}_{\actuarialangle{n}}- \frac{d}{ \delta} \right) \left( 1+i \right)= \overline{a}_{\actuarialangle{n-1}};
+360 ## \left( \overline{I} \overline{a} \right)_{\actuarialangle{20}}
+361 ## \left( \overline{I} \overline{a} \right)_{\actuarialangle{120}}
+362 ## \left( \overline{I} \overline{a} \right)_{\actuarialangle{5}}
+363 ## \left( Da \right)_{\actuarialangle{68}}= \left( \right)
+364 ## \lim_{m \rightarrow \infty}d^{ (m)}=
+365 ## \overline{a}_{\actuarialangle{n}}
+366 ## \overline{a}_{\actuarialangle{5}}=a
+367 ## \overline{a}_{\actuarialangle{10}}=b
+368 ## \overline{a}_{\actuarialangle{10}}=()
+369 ## \overline{a}_{\actuarialangle{n}}=a, \overline{a}_{\actuarialangle{2n}}=b
+370 ## \overline{S}_{ \actuarialangle{n}}
+371 ## \frac{L_{0}(1+i)}{\ddot{a}_{\actuarialangle{n}j}}
+372 ## \frac{L_{0}(1+i)}{a_{\actuarialangle{n}j}}
+373 ## \frac{L_{0}}{\ddot{a}_{\actuarialangle{n}j}}
+374 ## X∼{LN}\left(μ, σ^{2}\right)
+375 ## \delta_{ \frac{1}{12}}
+376 ## \left(\overline{I}\overline{a}\right)_{\actuarialangle{5}}
+377 ## U=E(r)-0.005A \sigma^{2}
+378 ## x \in [ 0,c_{2}]
+379 ## x \in[0,c_{1}]
+380 ## X \sim \begin{pmatrix}0&2&4&6 \\ 0.1&0.3&0.3&0.3 \end{pmatrix}
+381 ## X \sim \left( \begin{matrix} 0&1&2&3 \\ 0.5&0.2&0.2&0.1 \end{matrix} \right),Y \sim \left( \begin{matrix}-2&3&5 \\ 0.3&0.1&0.6 \end{matrix} \right)
+382 ## a_{\actuarialangle{9}} \neq \frac{a_{\actuarialangle{6}} \cdot s_{\actuarialangle{9}}}{s_{\actuarialangle{9}} - s_{\actuarialangle{3}}}
